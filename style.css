@@ -65,3 +65,50 @@
     color: #fff;
     text-decoration: none;
   }
+
+
+
+.textArea{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  width: 60%;
+}
+
+
+
+  .btn-grad3 {
+     background-image: linear-gradient(to right, #EFEFBB 0%, #D4D3DD  51%, #EFEFBB  100%);
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     border-color: transparent;
+   }
+
+   .btn-grad3:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+
+#robot {
+  width: 80%;
+  height: 40%;
+}

@@ -31,4 +31,17 @@ function(){
 
 }
 
+var speechRec = window.webkitSpeechRecognition;
+var recognition = new speechRec();
+var said = "";
 //     */
+function speech() {
+ recognition.start();
+}
+recognition.onresult = function(event){
+ console.log(event.results);
+ said = event.results[0][0].transcript;
+   document.getElementById("saidText").innerHTML = said;
+
+  
+}
